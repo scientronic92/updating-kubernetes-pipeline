@@ -12,3 +12,7 @@ dockerpath=scientronic92/flaskapp:5
 
 kubectl set image deployment/flaskapp flaskapp=scientronic92/flaskapp:5 --record
 
+# Step 3:
+# view pods changes
+
+kubectl get pods
