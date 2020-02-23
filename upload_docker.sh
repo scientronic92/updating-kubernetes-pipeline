@@ -12,7 +12,7 @@ dockerpath=scientronic92/flaskapp
 # Authenticate & tag
 
 echo "Docker ID and Image: $dockerpath"
-docker tag flaskapp:4.0 scientronic92/flaskapp:5
+docker tag flaskapp:5.0 scientronic92/flaskapp:5
 
 # Step 3:
 # Push image to a docker repository
