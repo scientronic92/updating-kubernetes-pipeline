@@ -10,7 +10,7 @@ dockerpath=scientronic92/flaskapp:5
 # updating the running container with kubernetes
 # kubectl rolling-update flaskapp flaskapp-1 --image=scientronic92/flaskapp:5
 
-kubectl set image deployment flaskapp flaskapp=nginx --record
+kubectl set image deployment flaskapp flaskapp=scientronic92/flaskapp:5 --record
 
 # kubectl apply -f deployapp.yml
 
